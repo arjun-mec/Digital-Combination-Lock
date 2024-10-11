@@ -1,4 +1,3 @@
-````markdown
 # 3-Bit Combinational Lock
 
 This repository contains Verilog code for a 3-bit combinational lock implemented using D flip-flops and a simple logic gate. The lock unlocks when a specific 3-bit sequence (011) is entered. The lock status is indicated by `lock_led` (1 for locked, 0 for unlocked) and `unlock_led` (inverse of `lock_led`).
@@ -17,10 +16,10 @@ The lock is designed using a 3-bit shift register built from `dff_7474` modules 
 ## Usage
 
 1. **Compilation:**
+
    ```bash
    iverilog -o cmblock cmblock.v
    ```
-````
 
 2. **Simulation:**
 
