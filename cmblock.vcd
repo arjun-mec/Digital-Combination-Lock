@@ -1,0 +1,244 @@
+$date
+	Mon Oct  7 08:50:13 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module combinational_lock_tb $end
+$var wire 1 ! unlock_led $end
+$var wire 1 " q2 $end
+$var wire 1 # q1 $end
+$var wire 1 $ q0 $end
+$var wire 1 % lock_led $end
+$var reg 1 & clk $end
+$var reg 1 ' clr_n $end
+$var reg 1 ( data_in $end
+$scope module UUT $end
+$var wire 1 & clk $end
+$var wire 1 ' clr_n $end
+$var wire 1 ( data_in $end
+$var wire 1 % lock_led $end
+$var wire 1 ) r0 $end
+$var wire 1 * r1 $end
+$var wire 1 + r2 $end
+$var wire 1 ! unlock_led $end
+$var wire 1 " q2 $end
+$var wire 1 # q1 $end
+$var wire 1 $ q0 $end
+$scope module sr $end
+$var wire 1 & clk $end
+$var wire 1 ' clr_n $end
+$var wire 1 ( data_in $end
+$var wire 1 , q2_n $end
+$var wire 1 " q2 $end
+$var wire 1 - q1_n $end
+$var wire 1 # q1 $end
+$var wire 1 . q0_n $end
+$var wire 1 $ q0 $end
+$scope module ff0 $end
+$var wire 1 & clk $end
+$var wire 1 ' clr_n $end
+$var wire 1 ( d $end
+$var wire 1 / pre_n $end
+$var wire 1 . q_n $end
+$var reg 1 $ q $end
+$upscope $end
+$scope module ff1 $end
+$var wire 1 & clk $end
+$var wire 1 ' clr_n $end
+$var wire 1 $ d $end
+$var wire 1 0 pre_n $end
+$var wire 1 - q_n $end
+$var reg 1 # q $end
+$upscope $end
+$scope module ff2 $end
+$var wire 1 & clk $end
+$var wire 1 ' clr_n $end
+$var wire 1 # d $end
+$var wire 1 1 pre_n $end
+$var wire 1 , q_n $end
+$var reg 1 " q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+11
+10
+1/
+x.
+x-
+x,
+x+
+x*
+x)
+x(
+0'
+0&
+x%
+x$
+x#
+x"
+x!
+$end
+#5000
+0!
+1.
+1-
+1%
+1,
+0+
+0$
+0*
+0#
+0)
+0"
+0(
+1&
+#10000
+0&
+1'
+#15000
+1&
+#20000
+0&
+#25000
+1&
+#30000
+0&
+#35000
+1&
+#40000
+0&
+#45000
+0'
+1&
+#50000
+0&
+#55000
+1'
+1&
+#60000
+0&
+#65000
+1&
+#70000
+0&
+#75000
+0.
+1+
+1$
+1(
+1&
+#80000
+0&
+#85000
+0-
+1*
+1#
+1&
+#90000
+0&
+#95000
+0,
+1)
+1"
+1&
+#100000
+0&
+#105000
+0'
+1&
+#110000
+0&
+#115000
+1'
+1&
+#120000
+0&
+#125000
+1&
+#130000
+0&
+#135000
+1.
+0+
+0$
+0(
+1&
+#140000
+0&
+#145000
+1!
+0%
+0.
+1-
+1+
+1$
+0*
+0#
+1(
+1&
+#150000
+0&
+#155000
+0!
+1,
+0-
+1%
+0)
+0"
+1*
+1#
+1&
+#160000
+0&
+#165000
+0,
+1)
+1"
+0'
+1&
+#170000
+0&
+#175000
+1'
+1&
+#180000
+0&
+#185000
+1&
+#190000
+0&
+#195000
+1&
+#200000
+0&
+#205000
+1&
+#210000
+0&
+#215000
+1&
+#220000
+0&
+#225000
+0'
+1&
+#230000
+0&
+#235000
+1'
+1&
+#240000
+0&
+#245000
+1&
